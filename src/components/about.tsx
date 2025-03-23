@@ -7,33 +7,35 @@ const About: React.FC = () => {
       <div className={styles.aboutContainer}>
         <h2>About Philatos</h2>
         <p>
-          Philatos is a modern mythology dictionary that bridges ancient wisdom with modern design.
-          It serves as a curated space for storytellers, history lovers, and digital explorers.
+          <strong>Philatos</strong> is a modern mythology dictionary crafted with care by me, Sanskriti Shelke.
+          It's more than just a dictionary—it's an interactive gateway into the timeless world of ancient myths.
+          I created Philatos to reimagine how we connect with history: by making classical knowledge
+          approachable, beautifully designed, and accessible to everyone, from students to myth enthusiasts.
+          My mission is to merge technology with storytelling, bringing ancient legends into the hands of modern explorers.
         </p>
-
         {/* 🔮 Feature Highlights */}
         <div className={styles.featuresGrid}>
           <div className={styles.featureBox}>
-            <h4>⚡ Fast & Lightweight</h4>
-            <p>Optimized for speed and smooth performance across devices.</p>
+            <h4>🏺 Dynamic Greek Mythology Dictionary</h4>
+            <p> Discover myths from Homer to Virgil. </p>
           </div>
           <div className={styles.featureBox}>
-            <h4>🏛️ Authentic Greek Design</h4>
-            <p>Inspired by ancient scripts, temples, and timeless mythology.</p>
+            <h4>🏛️ Greek to English Toggle</h4>
+            <p> Translate Homeric Greek proses into English!</p>
           </div>
           <div className={styles.featureBox}>
-            <h4>🧠 Offline Ready</h4>
-            <p>Access key entries even when you’re disconnected.</p>
+            <h4>📜 AI-Powered Myth Recommender</h4>
+            <p> Can't decide which myth to learn about? Get personalized suggestions based on your interests.</p>
           </div>
           <div className={styles.featureBox}>
-            <h4>📚 Expandable Glossary</h4>
-            <p>Build your personal collection of mythological terms.</p>
+            <h4>🕯️ Expandable Glossary</h4>
+            <p> Build your own collection of mythological terms.</p>
           </div>
         </div>
 
         {/* ⭐ CTA */}
         <div className={styles.ctaBox}>
-          <a href="#demo" className={styles.ctaButton}>🚀 Try the Demo</a>
+          <a href="#demo" className={styles.ctaButton}> 🚀 Try the Demo</a>
         </div>
       </div>
     </section>
