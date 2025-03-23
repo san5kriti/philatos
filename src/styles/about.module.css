@@ -1,0 +1,78 @@
+.aboutSection {
+  background: #000000; /* pure black now */
+  color: white;
+  padding: 100px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutContainer {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+}
+
+.aboutText {
+  text-align: left;
+}
+
+.aboutText h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #f5d76e;
+}
+
+.aboutText p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #d1d5db;
+}
+
+/* Features right side */
+.featuresGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.featureBox {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border: 1px solid rgba(255, 215, 100, 0.3);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featureBox:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(245, 215, 110, 0.4);
+}
+
+.featureBox h4 {
+  color: #f5d76e;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.ctaBox {
+  grid-column: span 2;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ctaButton {
+  background: linear-gradient(90deg, #f5d76e, #ffe484);
+  color: #00001c;
+  padding: 12px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.ctaButton:hover {
+  background: linear-gradient(90deg, #ffe484, #f5d76e);
+  transform: scale(1.05);
+}
